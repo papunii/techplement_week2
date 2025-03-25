@@ -114,7 +114,7 @@ Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: my-unique-bucket-123456  # Change to a unique name
+      BucketName: satya_s3bucket  # Change to a unique name
 
 Outputs:
   VPCID:
